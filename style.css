@@ -1,0 +1,70 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*descendent children selector*/
+header h1{
+    font-weight: 200px;
+}
+
+header {
+    display: flex;                 /*it makes arrangement of elements in horizontal direction*/
+    justify-content: space-around;
+    margin: 0 3rem;
+}
+
+nav{
+    position: relative;      /*via use this, we can move our element from this default location*/
+    top: 1rem;
+    right: 3rem;
+    width : 20rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    font-size: 1.5rem;
+} 
+
+.showcase_img{
+    width : 95vw;
+    margin: 1rem;
+}
+
+article{
+    display:flex;
+    margin: 1.5rem;
+}
+
+.container{
+   
+    padding: 1rem;
+    text-align: center;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    
+}
+
+footer{
+    display:flex;
+    justify-content: center;     /*property of flex...used to align horizontally.*/
+    align-items: center;        /*property of flex...used to align vertically(not horizontally)*/
+    background-color: black;
+    height : 4rem;
+    color:white;
+    font-size:1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+a:hover{
+    color:red;
+}
